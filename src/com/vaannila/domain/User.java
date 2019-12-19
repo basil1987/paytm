@@ -13,6 +13,11 @@ public class User {
 	public String getName() {
 		return name;
 	}
+
+        public String displayName() {
+                return name;
+        }
+
 	public void setName(String name) {
 		this.name = name;
 	}
